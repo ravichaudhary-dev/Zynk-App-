@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zynk — Next-Gen Quantum-Secure Communication</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #0B0E14;
+      color: #E2E8F0;
+    }
+    .glow-cyan {
+      box-shadow: 0 0 50px -10px rgba(6, 182, 212, 0.35);
+    }
+    .glow-emerald {
+      box-shadow: 0 0 35px -5px rgba(16, 185, 129, 0.4);
+    }
+    .glass-card {
+      background: #121622;
+      border: 1px solid #1E2333;
+    }
+    .glass-card:hover {
+      border-color: #2D3748;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between selection:bg-cyan-500 selection:text-black">
+
+  <!-- NAVBAR -->
+  <header class="border-b border-[#1E2333] sticky top-0 z-50 backdrop-blur-md bg-[#0B0E14]/80">
+    <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-emerald-400 flex items-center justify-center font-extrabold text-black text-xl shadow-lg shadow-cyan-500/20">
+          Z
+        </div>
+        <span class="text-2xl font-bold tracking-wider text-white">Z Y N K</span>
+      </div>
+
+      <a href="https://github.com/ravichaudhary-dev/Zynk-App-/releases/latest/download/app-release.apk" 
+         class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-emerald-500 to-teal-400 text-black font-semibold text-sm hover:opacity-90 transition glow-emerald">
+        <i data-lucide="download" class="w-4 h-4"></i> Download v1.0.0
+      </a>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <main class="flex-1">
+    <section class="max-w-5xl mx-auto px-6 pt-20 pb-16 text-center">
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass-card text-emerald-400 text-xs font-semibold uppercase tracking-widest mb-6">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span> Version 1.0 (Official Build) Available
+      </div>
+
+      <h1 class="text-4xl sm:text-6xl font-extrabold text-white tracking-tight leading-tight max-w-4xl mx-auto">
+        Next-Gen Quantum-Secure <br class="hidden sm:inline" />
+        <span class="bg-gradient-to-r from-cyan-400 via-teal-300 to-emerald-400 bg-clip-text text-transparent">
+          Private Communication
+        </span>
+      </h1>
+
+      <p class="mt-6 text-gray-400 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
+        Experience zero-latency messaging, autonomous voicemail audio drops, offline translation, and peer-to-peer security built from the ground up.
+      </p>
+
+      <!-- Primary CTA -->
+      <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="https://github.com/ravichaudhary-dev/Zynk-App-/releases/latest/download/app-release.apk"
+           class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-2xl bg-gradient-to-r from-emerald-400 to-cyan-500 text-black font-bold text-base hover:scale-[1.02] active:scale-[0.98] transition shadow-xl glow-emerald">
+          <i data-lucide="download" class="w-5 h-5"></i>
+          <span>Download Zynk APK</span>
+          <span class="text-xs px-2 py-0.5 rounded bg-black/20 text-black font-medium">345 MB</span>
+        </a>
+
+        <a href="#install-guide" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-4 rounded-2xl glass-card text-gray-300 hover:text-white hover:bg-[#1E2333]/50 transition text-base font-semibold">
+          <i data-lucide="help-circle" class="w-5 h-5 text-gray-400"></i> How to Install
+        </a>
+      </div>
+
+      <div class="mt-6 text-xs text-gray-500 flex items-center justify-center gap-6">
+        <span class="inline-flex items-center gap-1.5"><i data-lucide="shield-check" class="w-4 h-4 text-emerald-400"></i> Verified Safe Binary</span>
+        <span class="inline-flex items-center gap-1.5"><i data-lucide="smartphone" class="w-4 h-4 text-cyan-400"></i> Android 8.0+ Ready</span>
+      </div>
+    </section>
+
+    <!-- KEY FEATURES GRID -->
+    <section class="max-w-6xl mx-auto px-6 py-16">
+      <div class="text-center mb-12">
+        <h2 class="text-2xl sm:text-3xl font-bold text-white">Engineered for Uncompromising Privacy</h2>
+        <p class="text-gray-400 text-sm mt-2">Zero central telemetry. Pure client-side control.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Feature 1 -->
+        <div class="p-8 rounded-3xl glass-card transition hover:-translate-y-1">
+          <div class="w-12 h-12 rounded-2xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400 mb-6">
+            <i data-lucide="phone-missed" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-2">Automated Voicemail</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">
+            Smart missed call audio drop with synthesized voice prompts. Captures voice notes automatically when calls go unanswered.
+          </p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="p-8 rounded-3xl glass-card transition hover:-translate-y-1">
+          <div class="w-12 h-12 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 mb-6">
+            <i data-lucide="lock" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-2">Biometric Screen Shield</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">
+            Hardware-backed biometric lock with automatic task switcher blanking to keep sensitive chats concealed from shoulder surfers.
+          </p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="p-8 rounded-3xl glass-card transition hover:-translate-y-1">
+          <div class="w-12 h-12 rounded-2xl bg
