@@ -4,9 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Zynk — Next-Gen Quantum-Secure Communication</title>
-  <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,7 +42,9 @@
         <span class="text-2xl font-bold tracking-wider text-white">Z Y N K</span>
       </div>
 
-      <a href="https://github.com/ravichaudhary-dev/Zynk-App-/releases/latest/download/app-release.apk" 
+      <a href="https://github.com/ravichaudhary-dev/Zynk-App-/releases/download/v1.0.0/app-release.apk" 
+         target="_blank"
+         rel="noopener noreferrer"
          class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-emerald-500 to-teal-400 text-black font-semibold text-sm hover:opacity-90 transition glow-emerald">
         <i data-lucide="download" class="w-4 h-4"></i> Download v1.0.0
       </a>
@@ -71,7 +71,9 @@
 
       <!-- Primary CTA -->
       <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-        <a href="https://github.com/ravichaudhary-dev/Zynk-App-/releases/latest/download/app-release.apk"
+        <a href="https://github.com/ravichaudhary-dev/Zynk-App-/releases/download/v1.0.0/app-release.apk"
+           target="_blank"
+           rel="noopener noreferrer"
            class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-2xl bg-gradient-to-r from-emerald-400 to-cyan-500 text-black font-bold text-base hover:scale-[1.02] active:scale-[0.98] transition shadow-xl glow-emerald">
           <i data-lucide="download" class="w-5 h-5"></i>
           <span>Download Zynk APK</span>
@@ -97,7 +99,6 @@
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <!-- Feature 1 -->
         <div class="p-8 rounded-3xl glass-card transition hover:-translate-y-1">
           <div class="w-12 h-12 rounded-2xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400 mb-6">
             <i data-lucide="phone-missed" class="w-6 h-6"></i>
@@ -108,7 +109,6 @@
           </p>
         </div>
 
-        <!-- Feature 2 -->
         <div class="p-8 rounded-3xl glass-card transition hover:-translate-y-1">
           <div class="w-12 h-12 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 mb-6">
             <i data-lucide="lock" class="w-6 h-6"></i>
@@ -119,6 +119,60 @@
           </p>
         </div>
 
-        <!-- Feature 3 -->
         <div class="p-8 rounded-3xl glass-card transition hover:-translate-y-1">
-          <div class="w-12 h-12 rounded-2xl bg
+          <div class="w-12 h-12 rounded-2xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-400 mb-6">
+            <i data-lucide="languages" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-2">Offline Hybrid Translation</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">
+            On-device dynamic language caching powered by local Room DB and fallback learning models for seamless cross-border chats.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- INSTALLATION GUIDE -->
+    <section id="install-guide" class="max-w-4xl mx-auto px-6 py-16">
+      <div class="p-8 sm:p-12 rounded-3xl glass-card border-[#1E2333]">
+        <h2 class="text-2xl font-bold text-white text-center mb-8">How to Install Zynk on Android</h2>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center sm:text-left">
+          <div class="space-y-3">
+            <div class="w-9 h-9 rounded-full bg-cyan-500/20 text-cyan-400 font-bold flex items-center justify-center text-sm mx-auto sm:mx-0">1</div>
+            <h4 class="font-semibold text-white">Download the APK</h4>
+            <p class="text-gray-400 text-xs leading-relaxed">Tap the direct download button above to get the official release build directly from GitHub.</p>
+          </div>
+
+          <div class="space-y-3">
+            <div class="w-9 h-9 rounded-full bg-emerald-500/20 text-emerald-400 font-bold flex items-center justify-center text-sm mx-auto sm:mx-0">2</div>
+            <h4 class="font-semibold text-white">Allow Installation</h4>
+            <p class="text-gray-400 text-xs leading-relaxed">When prompted by Chrome or your browser, enable "Install unknown apps" in Settings.</p>
+          </div>
+
+          <div class="space-y-3">
+            <div class="w-9 h-9 rounded-full bg-teal-500/20 text-teal-400 font-bold flex items-center justify-center text-sm mx-auto sm:mx-0">3</div>
+            <h4 class="font-semibold text-white">Open & Communicate</h4>
+            <p class="text-gray-400 text-xs leading-relaxed">Launch Zynk, verify your device, and enjoy zero-trace private conversations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-[#1E2333] py-8 text-center text-gray-500 text-xs">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <p>© 2026 Zynk Inc. All rights reserved.</p>
+      <div class="flex items-center gap-6">
+        <a href="https://github.com/ravichaudhary-dev/Zynk-App-/releases" target="_blank" class="hover:text-gray-300 transition">Changelog</a>
+        <a href="#" class="hover:text-gray-300 transition">Privacy Policy</a>
+        <a href="#" class="hover:text-gray-300 transition">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
